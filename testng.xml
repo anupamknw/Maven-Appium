@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2" verbose="2">
+
+	<test name="Test1">
+		<parameter name="deviceName" value="emulator-5556"/>
+		<parameter name="udid" value="emulator-5556"/>
+		<parameter name="port" value="1234"/>
+		<classes>
+			<class name="com.competetion.APIDemoTest"/>
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<parameter name="deviceName" value="emulator-5554"/>
+		<parameter name="udid" value="emulator-5554"/>
+		<parameter name="port" value="3456"/>
+		<classes>
+			<class name="com.competetion.APIDemoTest"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

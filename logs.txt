@@ -1,0 +1,217 @@
+2020-02-28 15:09:44:607 [Appium] Welcome to Appium v1.16.0
+2020-02-28 15:09:44:610 [Appium] Non-default server args:
+2020-02-28 15:09:44:611 [Appium]   address: 127.0.0.1
+2020-02-28 15:09:44:611 [Appium]   port: 1234
+2020-02-28 15:09:44:613 [Appium]   logFile: /Users/in-anupamp/Documents/workspace/Maven-Appium/./logs.txt
+2020-02-28 15:09:44:651 [Appium] Appium REST http interface listener started on 127.0.0.1:1234
+2020-02-28 15:09:44:881 [HTTP] --> GET /wd/hub/status
+2020-02-28 15:09:44:881 [HTTP] {}
+2020-02-28 15:09:44:884 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-02-28 15:09:44:885 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.16.0"}}
+2020-02-28 15:09:44:889 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2020-02-28 15:09:44:890 [HTTP] 
+2020-02-28 15:09:44:893 [HTTP] --> GET /wd/hub/status
+2020-02-28 15:09:44:893 [HTTP] {}
+2020-02-28 15:09:44:893 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-02-28 15:09:44:894 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.16.0"}}
+2020-02-28 15:09:44:895 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2020-02-28 15:09:44:895 [HTTP] 
+2020-02-28 15:09:45:629 [HTTP] --> POST /wd/hub/session
+2020-02-28 15:09:45:629 [HTTP] {"desiredCapabilities":{"appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","platformName":"Android","deviceName":"Hello"},"capabilities":{"firstMatch":[{"appium:appActivity":".ApiDemos","appium:appPackage":"com.example.android.apis","appium:automationName":"UIAutomator2","appium:deviceName":"Hello","platformName":"android"}]}}
+2020-02-28 15:09:45:630 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","platformName":"Android","deviceName":"Hello"},null,{"firstMatch":[{"appium:appActivity":".ApiDemos","appium:appPackage":"com.example.android.apis","appium:automationName":"UIAutomator2","appium:deviceName":"Hello","platformName":"android"}]}]
+2020-02-28 15:09:45:630 [BaseDriver] Event 'newSessionRequested' logged at 1582902585630 (20:39:45 GMT+0530 (India Standard Time))
+2020-02-28 15:09:45:903 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-02-28 15:09:45:906 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-02-28 15:09:45:906 [BaseDriver] Creating session with W3C capabilities: {
+2020-02-28 15:09:45:906 [BaseDriver]   "alwaysMatch": {
+2020-02-28 15:09:45:906 [BaseDriver]     "platformName": "android",
+2020-02-28 15:09:45:906 [BaseDriver]     "appium:appActivity": ".ApiDemos",
+2020-02-28 15:09:45:907 [BaseDriver]     "appium:appPackage": "com.example.android.apis",
+2020-02-28 15:09:45:907 [BaseDriver]     "appium:automationName": "UIAutomator2",
+2020-02-28 15:09:45:907 [BaseDriver]     "appium:deviceName": "Hello"
+2020-02-28 15:09:45:907 [BaseDriver]   },
+2020-02-28 15:09:45:907 [BaseDriver]   "firstMatch": [
+2020-02-28 15:09:45:907 [BaseDriver]     {}
+2020-02-28 15:09:45:907 [BaseDriver]   ]
+2020-02-28 15:09:45:907 [BaseDriver] }
+2020-02-28 15:09:45:915 [BaseDriver] Session created with session id: 78fbd803-4bca-410b-aca8-23db71530507
+2020-02-28 15:09:45:916 [UiAutomator2] Starting 'com.example.android.apis' directly on the device
+2020-02-28 15:09:45:924 [ADB] Found 4 'build-tools' folders under '/Users/in-anupamp/Library/Android/sdk' (newest first):
+2020-02-28 15:09:45:925 [ADB]     /Users/in-anupamp/Library/Android/sdk/build-tools/29.0.2
+2020-02-28 15:09:45:925 [ADB]     /Users/in-anupamp/Library/Android/sdk/build-tools/28.0.3
+2020-02-28 15:09:45:925 [ADB]     /Users/in-anupamp/Library/Android/sdk/build-tools/27.0.3
+2020-02-28 15:09:45:926 [ADB]     /Users/in-anupamp/Library/Android/sdk/build-tools/26.0.2
+2020-02-28 15:09:45:926 [ADB] Using 'adb' from '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb'
+2020-02-28 15:09:45:926 [AndroidDriver] Retrieving device list
+2020-02-28 15:09:45:927 [ADB] Trying to find a connected android device
+2020-02-28 15:09:45:927 [ADB] Getting connected devices...
+2020-02-28 15:09:45:943 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2020-02-28 15:09:45:945 [AndroidDriver] Using device: emulator-5554
+2020-02-28 15:09:45:947 [ADB] Using 'adb' from '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb'
+2020-02-28 15:09:45:947 [ADB] Setting device id to emulator-5554
+2020-02-28 15:09:45:948 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2020-02-28 15:09:45:972 [ADB] Current device property 'ro.build.version.sdk': 25
+2020-02-28 15:09:45:973 [ADB] Device API level: 25
+2020-02-28 15:09:45:973 [AndroidDriver] No app sent in, not parsing package/activity
+2020-02-28 15:09:45:974 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2020-02-28 15:09:45:986 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2020-02-28 15:09:46:004 [AndroidDriver] Pushing settings apk to device...
+2020-02-28 15:09:46:004 [ADB] Getting install status for io.appium.settings
+2020-02-28 15:09:46:005 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2020-02-28 15:09:46:035 [ADB] 'io.appium.settings' is installed
+2020-02-28 15:09:46:036 [ADB] Getting package info for 'io.appium.settings'
+2020-02-28 15:09:46:037 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2020-02-28 15:09:46:096 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.15.0' >= '2.15.0')
+2020-02-28 15:09:46:096 [ADB] There is no need to install/upgrade '/Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2020-02-28 15:09:46:098 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-02-28 15:09:46:099 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2020-02-28 15:09:46:190 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep \^appium\\.settings\$'
+2020-02-28 15:09:46:248 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-02-28 15:09:46:248 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+2020-02-28 15:09:46:273 [Logcat] Starting logcat capture
+2020-02-28 15:09:46:296 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8202
+2020-02-28 15:09:46:296 [ADB] Forwarding system: 8202 to device: 6790
+2020-02-28 15:09:46:297 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp\:8202 tcp\:6790'
+2020-02-28 15:09:46:323 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-02-28 15:09:46:323 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2020-02-28 15:09:46:371 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-02-28 15:09:46:371 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-02-28 15:09:46:372 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2020-02-28 15:09:46:538 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.2' >= '4.5.2')
+2020-02-28 15:09:46:538 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-02-28 15:09:46:539 [ADB] Checking app cert for /Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk
+2020-02-28 15:09:46:545 [ADB] Using 'apksigner' from '/Users/in-anupamp/Library/Android/sdk/build-tools/29.0.2/apksigner'
+2020-02-28 15:09:46:546 [ADB] Starting '/Users/in-anupamp/Library/Android/sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk"]'
+2020-02-28 15:09:48:202 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-02-28 15:09:48:203 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-02-28 15:09:48:203 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-02-28 15:09:48:203 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-02-28 15:09:48:203 [ADB] 
+2020-02-28 15:09:48:204 [ADB] '/Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk' is already signed.
+2020-02-28 15:09:48:204 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-02-28 15:09:48:204 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-02-28 15:09:48:276 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-02-28 15:09:48:277 [ADB] Checking app cert for /Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2020-02-28 15:09:48:278 [ADB] Starting '/Users/in-anupamp/Library/Android/sdk/build-tools/29.0.2/apksigner' with args '["verify","--print-certs","/Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-02-28 15:09:49:607 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-02-28 15:09:49:607 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-02-28 15:09:49:608 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-02-28 15:09:49:608 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-02-28 15:09:49:608 [ADB] 
+2020-02-28 15:09:49:608 [ADB] '/Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-02-28 15:09:49:609 [UiAutomator2] Server packages are not going to be (re)installed
+2020-02-28 15:09:49:613 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-02-28 15:09:49:614 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2020-02-28 15:09:50:370 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-02-28 15:09:50:371 [UiAutomator2] No app capability. Assuming it is already on the device
+2020-02-28 15:09:50:371 [ADB] Getting install status for com.example.android.apis
+2020-02-28 15:09:50:372 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.example.android.apis'
+2020-02-28 15:09:50:473 [ADB] 'com.example.android.apis' is installed
+2020-02-28 15:09:50:473 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.example.android.apis'
+2020-02-28 15:09:51:030 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.example.android.apis'
+2020-02-28 15:09:51:383 [AndroidDriver] Performed fast reset on the installed 'com.example.android.apis' application (stop and clear)
+2020-02-28 15:09:51:385 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-02-28 15:09:51:403 [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+2020-02-28 15:09:51:404 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2020-02-28 15:09:51:838 [UiAutomator2] Starting UIAutomator2 server 4.5.2
+2020-02-28 15:09:51:838 [UiAutomator2] Using UIAutomator2 server from '/Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.5.2.apk' and test from '/Users/in-anupamp/.nvm/versions/node/v10.15.3/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2020-02-28 15:09:51:839 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-02-28 15:09:51:839 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-02-28 15:09:52:780 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-02-28 15:09:52:847 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-02-28 15:09:52:848 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8202/wd/hub/status] with no body
+2020-02-28 15:09:52:853 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-02-28 15:09:53:856 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-02-28 15:09:53:856 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8202/wd/hub/status] with no body
+2020-02-28 15:09:53:861 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-02-28 15:09:54:864 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-02-28 15:09:54:864 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8202/wd/hub/status] with no body
+2020-02-28 15:09:54:885 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+2020-02-28 15:09:54:886 [UiAutomator2] The initialization of the instrumentation process took 3047ms
+2020-02-28 15:09:54:886 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-02-28 15:09:54:886 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8202/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","deviceName":"Hello"},"platformName":"android","appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+2020-02-28 15:09:54:900 [WD Proxy] Got response with status 200: {"sessionId":"dd3e0b06-0a56-4566-b77c-9edc933101aa","value":{"sessionId":"dd3e0b06-0a56-4566-b77c-9edc933101aa","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","deviceName":"Hello"},"platformName":"android","appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}}
+2020-02-28 15:09:54:900 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-02-28 15:09:54:907 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8202/wd/hub/session/dd3e0b06-0a56-4566-b77c-9edc933101aa/appium/device/info] with no body
+2020-02-28 15:09:54:927 [WD Proxy] Got response with status 200: {"sessionId":"dd3e0b06-0a56-4566-b77c-9edc933101aa","value":{"androidId":"8a1f0fe831a8c1a2","manufacturer":"Google","model":"Android SDK built for x86","brand":"google","apiVersion":"25","platformVersion":"7.1.1","carrierName":"Android","realDisplaySize":"1080x1920","displayDensity":420,"networks":[{"type":0,"typeName":"MOBILE","subtype":13,"subtypeName":"LTE","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_CELLULAR","networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_CBS,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_MMS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_IA","linkUpstreamBandwidthKbps":51200,"linkDownBandwidthKbps":102400,"signalStrength":-2147483648,"networkSpecifier":"1","SSID":null}}],"locale":"en_US","timeZone":...
+2020-02-28 15:09:54:928 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2020-02-28 15:09:54:961 [AndroidDriver] Screen already unlocked, doing nothing
+2020-02-28 15:09:54:962 [UiAutomator2] Starting 'com.example.android.apis/.ApiDemos and waiting for 'com.example.android.apis/.ApiDemos'
+2020-02-28 15:09:54:963 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start -W -n com.example.android.apis/.ApiDemos -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-02-28 15:09:56:020 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8202/wd/hub/session/dd3e0b06-0a56-4566-b77c-9edc933101aa/appium/device/pixel_ratio] with body: {}
+2020-02-28 15:09:56:030 [WD Proxy] Got response with status 200: {"sessionId":"dd3e0b06-0a56-4566-b77c-9edc933101aa","value":2.625}
+2020-02-28 15:09:56:031 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-02-28 15:09:56:032 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8202/wd/hub/session/dd3e0b06-0a56-4566-b77c-9edc933101aa/appium/device/system_bars] with body: {}
+2020-02-28 15:09:56:048 [WD Proxy] Got response with status 200: {"sessionId":"dd3e0b06-0a56-4566-b77c-9edc933101aa","value":{"statusBar":63}}
+2020-02-28 15:09:56:049 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-02-28 15:09:56:050 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8202/wd/hub/session/dd3e0b06-0a56-4566-b77c-9edc933101aa/window/current/size] with body: {}
+2020-02-28 15:09:56:061 [WD Proxy] Got response with status 200: {"sessionId":"dd3e0b06-0a56-4566-b77c-9edc933101aa","value":{"height":1794,"width":1080}}
+2020-02-28 15:09:56:062 [Appium] New AndroidUiautomator2Driver session created successfully, session 78fbd803-4bca-410b-aca8-23db71530507 added to master session list
+2020-02-28 15:09:56:063 [BaseDriver] Event 'newSessionStarted' logged at 1582902596063 (20:39:56 GMT+0530 (India Standard Time))
+2020-02-28 15:09:56:067 [W3C (78fbd803)] Cached the protocol value 'W3C' for the new session 78fbd803-4bca-410b-aca8-23db71530507
+2020-02-28 15:09:56:067 [W3C (78fbd803)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","deviceName":"Hello"},"platformName":"android","appActivity":".ApiDemos","appPackage":"com.example.android.apis","automationName":"UIAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":25,"platformVersion":"7.1.1","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731}}}
+2020-02-28 15:09:56:071 [HTTP] <-- POST /wd/hub/session 200 10439 ms - 885
+2020-02-28 15:09:56:072 [HTTP] 
+2020-02-28 15:09:56:356 [HTTP] --> POST /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507/appium/device/send_sms
+2020-02-28 15:09:56:357 [HTTP] {"phoneNumber":"864832","message":"Hello"}
+2020-02-28 15:09:56:367 [W3C (78fbd803)] Calling AppiumDriver.sendSMS() with args: ["864832","Hello","78fbd803-4bca-410b-aca8-23db71530507"]
+2020-02-28 15:09:56:370 [ADB] Getting connected emulators
+2020-02-28 15:09:56:370 [ADB] Getting connected devices...
+2020-02-28 15:09:56:410 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2020-02-28 15:09:56:411 [ADB] 1 emulator(s) connected
+2020-02-28 15:09:56:412 [ADB] Overriding /Users/in-anupamp/.emulator_console_auth_token with an empty string to avoid telnet authentication for emulator commands
+2020-02-28 15:09:56:413 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 emu sms send 864832 Hello'
+2020-02-28 15:09:56:445 [W3C (78fbd803)] Responding to client with driver.sendSMS() result: null
+2020-02-28 15:09:56:446 [HTTP] <-- POST /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507/appium/device/send_sms 200 90 ms - 14
+2020-02-28 15:09:56:446 [HTTP] 
+2020-02-28 15:09:56:482 [HTTP] --> POST /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507/appium/device/gsm_call
+2020-02-28 15:09:56:482 [HTTP] {"phoneNumber":"321733","action":"call"}
+2020-02-28 15:09:56:483 [W3C (78fbd803)] Calling AppiumDriver.gsmCall() with args: ["321733","call","78fbd803-4bca-410b-aca8-23db71530507"]
+2020-02-28 15:09:56:484 [ADB] Getting connected emulators
+2020-02-28 15:09:56:485 [ADB] Getting connected devices...
+2020-02-28 15:09:56:517 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2020-02-28 15:09:56:518 [ADB] 1 emulator(s) connected
+2020-02-28 15:09:56:518 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 emu gsm call 321733'
+2020-02-28 15:09:56:544 [W3C (78fbd803)] Responding to client with driver.gsmCall() result: null
+2020-02-28 15:09:56:545 [HTTP] <-- POST /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507/appium/device/gsm_call 200 63 ms - 14
+2020-02-28 15:09:56:545 [HTTP] 
+2020-02-28 15:09:58:557 [HTTP] --> POST /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507/appium/device/gsm_call
+2020-02-28 15:09:58:557 [HTTP] {"phoneNumber":"321733","action":"accept"}
+2020-02-28 15:09:58:558 [W3C (78fbd803)] Calling AppiumDriver.gsmCall() with args: ["321733","accept","78fbd803-4bca-410b-aca8-23db71530507"]
+2020-02-28 15:09:58:558 [ADB] Getting connected emulators
+2020-02-28 15:09:58:561 [ADB] Getting connected devices...
+2020-02-28 15:09:58:579 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2020-02-28 15:09:58:580 [ADB] 1 emulator(s) connected
+2020-02-28 15:09:58:580 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 emu gsm accept 321733'
+2020-02-28 15:09:58:598 [W3C (78fbd803)] Responding to client with driver.gsmCall() result: null
+2020-02-28 15:09:58:599 [HTTP] <-- POST /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507/appium/device/gsm_call 200 41 ms - 14
+2020-02-28 15:09:58:599 [HTTP] 
+2020-02-28 15:09:58:609 [HTTP] --> DELETE /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507
+2020-02-28 15:09:58:609 [HTTP] {}
+2020-02-28 15:09:58:609 [W3C (78fbd803)] Calling AppiumDriver.deleteSession() with args: ["78fbd803-4bca-410b-aca8-23db71530507"]
+2020-02-28 15:09:58:610 [BaseDriver] Event 'quitSessionRequested' logged at 1582902598609 (20:39:58 GMT+0530 (India Standard Time))
+2020-02-28 15:09:58:610 [Appium] Removing session 78fbd803-4bca-410b-aca8-23db71530507 from our master session list
+2020-02-28 15:09:58:611 [UiAutomator2] Deleting UiAutomator2 session
+2020-02-28 15:09:58:612 [UiAutomator2] Deleting UiAutomator2 server session
+2020-02-28 15:09:58:612 [WD Proxy] Matched '/' to command name 'deleteSession'
+2020-02-28 15:09:58:613 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8202/wd/hub/session/dd3e0b06-0a56-4566-b77c-9edc933101aa] with no body
+2020-02-28 15:09:58:650 [WD Proxy] Got response with status 200: {"sessionId":"dd3e0b06-0a56-4566-b77c-9edc933101aa","value":null}
+2020-02-28 15:09:58:650 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.example.android.apis'
+2020-02-28 15:09:58:815 [Instrumentation] .
+2020-02-28 15:09:59:124 [Instrumentation] Time: 6.04
+2020-02-28 15:09:59:125 [Instrumentation] 
+2020-02-28 15:09:59:125 [Instrumentation] OK (1 test)
+2020-02-28 15:09:59:164 [Instrumentation] The process has exited with code 0
+2020-02-28 15:09:59:517 [Logcat] Stopping logcat capture
+2020-02-28 15:09:59:524 [ADB] Removing forwarded port socket connection: 8202 
+2020-02-28 15:09:59:524 [ADB] Running '/Users/in-anupamp/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:8202'
+2020-02-28 15:09:59:545 [BaseDriver] Event 'quitSessionFinished' logged at 1582902599545 (20:39:59 GMT+0530 (India Standard Time))
+2020-02-28 15:09:59:546 [W3C (78fbd803)] Received response: null
+2020-02-28 15:09:59:546 [W3C (78fbd803)] But deleting session, so not returning
+2020-02-28 15:09:59:546 [W3C (78fbd803)] Responding to client with driver.deleteSession() result: null
+2020-02-28 15:09:59:548 [HTTP] <-- DELETE /wd/hub/session/78fbd803-4bca-410b-aca8-23db71530507 200 938 ms - 14
+2020-02-28 15:09:59:548 [HTTP] 
+2020-02-28 15:09:59:550 [Appium] Received SIGTERM - shutting down
+2020-02-28 15:09:59:555 uncaughtException: write EPIPE
+Error: write EPIPE
+    at WriteWrap.afterWrite (net.js:779:14)
